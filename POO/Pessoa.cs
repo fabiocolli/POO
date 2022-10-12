@@ -1,5 +1,7 @@
 ﻿namespace POO
 {
+    //Aqui temos o exemplo de abstração
+    //Além disso há a proteção dos atributos da classe via propriedades
     public abstract class Pessoa
     {
         private string? primeiroNome { get; set; }

@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace POO
 {
+    //Aqui temos exemplo de Herança, onde a classe atleta herda as funcionalidades, propriedades e atributos da classe Pessoa
     public class Baladeiro : Pessoa
     {
         public Baladeiro(string primeiroNome, string segundoNome, int idade)
@@ -19,6 +20,11 @@ namespace POO
         {
 
         }
+
+        /*
+         Abaixo temos os exemplos de polimorfirmo e encapsulamento, onde cada classe, respectivamente implementa o seu próprio
+         comportamento e a implementação é omitida, ou seja não é precisa saber o que os métodos fazem para ser executado
+        */
 
         public override void Acordar()
         {
